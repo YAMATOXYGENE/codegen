@@ -1,0 +1,33 @@
+.services {
+    padding: 20px;
+  }
+  
+  .service-card {
+    background-color: #f0f0f0;
+    border: 10px solid #ccc;
+    border-radius: 50px;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .service-card h3 {
+    color: #333;
+  }
+  
+  .service-card p {
+    color: #666;
+  }
+  
+  .service-card button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .service-card button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,46 @@
+.sidebar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh; /* Make the sidebar fill the entire height of the viewport */
+    width:300px; /* Increased width for the sidebar */
+    background-color: #6787bc;
+    color: #eae0e0;
+}
+
+.sidebar-header {
+    margin-bottom: 20px;
+}
+
+.sidebar-logo {
+  width: 300px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+
+.sidebar-item {
+    margin-bottom: 10px;
+}
+
+.sidebar-button {
+    display: block;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #0a0000;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar-button:hover {
+    background-color: #344572;
+}
+
+.sidebar-button:active {
+    background-color: #f30808; /* Change the background color when the button is clicked */
+}
+
+.sidebar-icon {
+    margin-right: 8px;
+}

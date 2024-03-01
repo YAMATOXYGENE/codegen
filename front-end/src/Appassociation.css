@@ -1,0 +1,48 @@
+/* Appassociation.css */
+
+/* Styling for the wildlife-page container */
+.wildlife-page {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+    min-height: 100vh; /* Make the container at least the height of the viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling for the list of application animals */
+.app-animals-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; /* Center items with equal space between them */
+    margin-top: 20px;
+}
+
+/* Styling for each application animal */
+.app-animal {
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.app-animal:hover {
+    transform: translateY(-5px);
+}
+
+/* Styling for application animal logos */
+.app-animal img {
+    width: 100px; /* Adjust the width to your preference */
+    height: 100px; /* Adjust the height to your preference */
+    border-radius: 50%; /* Make the logo circular */
+    border: 2px solid #fff; /* Add a white border around the logo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    transition: transform 0.3s ease;
+}
+
+.app-animal img:hover {
+    transform: scale(1.1); /* Scale up the logo on hover */
+}

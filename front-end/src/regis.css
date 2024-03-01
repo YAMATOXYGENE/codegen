@@ -1,0 +1,69 @@
+/* regis.css */
+
+.regis-form {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 55px;
+  background-color: #80a3a2;
+  border-radius: 100px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.regis-form h2 {
+  font: 600 24px "Arial", sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #abcecf;
+}
+
+.regis-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.regis-form label {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #080706;
+}
+
+.regis-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #abcecf;
+  border-radius: 50px;
+  transition: border-color 0.3s;
+}
+
+.regis-form input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.regis-form .error-message {
+  color: #283ba8;
+}
+
+.regis-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #c4dce0;
+  color: #ffffff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.regis-form button:hover {
+  background-color: #0056b3;
+}
+
+.regis-form a {
+  text-align: center;
+  text-decoration: none;
+  color: #c4dce0;
+  margin-top: 10px;
+}

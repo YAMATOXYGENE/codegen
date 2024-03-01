@@ -1,0 +1,83 @@
+/* Main container */
+.about-us {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading */
+  .about-us h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Paragraph */
+  .about-us p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  /* Team members container */
+  .team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Team member card */
+  .team-member {
+    width: 250px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .team-member:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Team member image */
+  .team-member img {
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  /* Team member name */
+  .team-member h3 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  /* Team member role */
+  .team-member p {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  /* Responsive design */
+  @media screen and (max-width: 768px) {
+    .team-member {
+      width: calc(50% - 40px);
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .team-member {
+      width: calc(100% - 40px);
+    }
+  }
+  

@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-y: auto; /* Allow vertical scrolling only */
+    background: #235d7e url(https://i.imgur.com/MgdnNL2.jpg) center top no-repeat;
+    background-size: cover;
+}
+
+.hero {
+    height: 70%;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.hero {
+    height: 70vh; 
+    width: 100%;
+    -webkit-clip-path: polygon(40% 0, 100% 0%, 100% 100%, 65% 100%);
+    clip-path: polygon(40% 0, 100% 0%, 100% 100%, 65% 100%);
+    position: relative;
+    -webkit-filter: drop-shadow(1px 1px 0 #159eb7) drop-shadow(-1px 0px 0 #fff) drop-shadow(0 -1px 0 #fff);
+    filter: drop-shadow(1px 1px 0 #2180a3) drop-shadow(-1px 0px 0 #fff) drop-shadow(0 -1px 0 #fff);
+    overflow: hidden;
+}
+

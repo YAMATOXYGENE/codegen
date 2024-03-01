@@ -1,0 +1,33 @@
+.footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+}
+
+.footer .container {
+  text-align: center;
+}
+
+.footer .footer-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer .footer-links li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.footer .footer-links li a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer .footer-text {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.heart-icon {
+  color: #ff5252;
+}
